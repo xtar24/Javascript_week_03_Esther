@@ -1,0 +1,2 @@
+# Javascript_week_03_Esther
+DOCUMENT OBJECT MODEL(DOM),  AJAX AND HTTP REQUEST
