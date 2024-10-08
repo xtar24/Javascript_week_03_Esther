@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipes</title>
+    <style>
+      .recipe {
+        border: 1px solid #ccc;
+        padding: 20px;
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+      }
+      .pagination {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="recipe" class="recipe">
+      <img
+        id="recipe-img"
+        src="/AJAX and HTTP Request/Task 3/Party Food Recipes (1).jpg"
+        alt="Food Image"
+        width="300"
+      />
+            <img
+        id="recipe-img"
+        src="/AJAX and HTTP Request/Task 3/premium_photo-1673108852141-e8c3c22a4a22.jpeg"
+        alt="Food Image"
+        width="300"
+      />
+            <img
+        id="recipe-img"
+        src="/AJAX and HTTP Request/Task 3/top-view-table-full-delicious-food-composition_23-2149141352.avif"
+        alt="Food Image"
+        width="300"
+      />
+      <h2 id="recipe-name"></h2>
+      <p id="recipe-instructions"></p>
+    </div>
+    <div class="pagination">
+      <button id="prev-btn">Previous</button>
+      <button id="next-btn">Next</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
